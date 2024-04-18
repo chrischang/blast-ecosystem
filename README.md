@@ -14,6 +14,10 @@ Use this example PR as a guide to add your protocol information: https://github.
 
 Add protocol information to `src/protocols/index.ts` and the logo to `public/logos/`
 
+## What should the size of the logo be?
+
+It should be square, typically 400x400 pixels. You can usually use the logo from the protocols' official accounts.
+
 ## Testing
 
 To verify that the image and link are working you can run;
