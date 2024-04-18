@@ -40,7 +40,7 @@ const ProtocolItem: FC<{ protocol: Protocol }> = ({ protocol }) => {
           alt={protocol.name}
           sx={{ borderRadius: '50%' }}
         />
-        <Typography color={'primary'} fontSize={14}>
+        <Typography color={'primary'} fontSize={16}>
           {protocol.name}
         </Typography>
       </Box>

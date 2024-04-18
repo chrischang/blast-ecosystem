@@ -80,6 +80,13 @@ const protocols: Protocol[] = [
     category: Category.DEX,
     twitterUrl: 'https://twitter.com/ThrusterFi',
   },
+  {
+    name: 'Ambient',
+    url: 'https://blast.ambient.finance/',
+    logoPath: 'logos/ambient.png',
+    category: Category.DEX,
+    twitterUrl: 'https://twitter.com/ambient_finance',
+  }
 ];
 
 export { protocols };
