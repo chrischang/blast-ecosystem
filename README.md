@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a list of ecosystems.
+This repository contains a list of Blast L2 ecosystem protocols.
 
 ## Website
 
