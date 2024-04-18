@@ -10,7 +10,7 @@ https://blastecosystem.dev/
 
 ## How do I add my protocol information?
 
-Use this example PR as a guide to add your protocol information: https://github.com/chrischang/blast-ecosystem/pulls
+Use this example PR as a guide to add your protocol information: https://github.com/chrischang/blast-ecosystem/pull/1
 
 ## Testing
 
