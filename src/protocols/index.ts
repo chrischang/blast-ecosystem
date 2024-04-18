@@ -5,6 +5,7 @@ export enum Category {
   NFTFI = 'NFTFI',
   Gaming = 'Gaming',
   Social = 'Social',
+  DEX = 'DEX',
 }
 
 export type Protocol = {
@@ -64,6 +65,13 @@ const protocols: Protocol[] = [
     logoPath: 'logos/districtone.jpeg',
     category: Category.Social,
     twitterUrl: 'https://twitter.com/DistrictOneIO',
+  },
+  {
+    name: 'Thruster',
+    url: 'https://thruster.finance',
+    logoPath: 'logos/thruster.jpeg',
+    category: Category.DEX,
+    twitterUrl: 'https://twitter.com/ThrusterFi',
   },
 ];
 
