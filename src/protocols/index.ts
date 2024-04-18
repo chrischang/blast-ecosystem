@@ -53,6 +53,13 @@ const protocols: Protocol[] = [
     twitterUrl: 'https://twitter.com/PugLifeGame',
   },
   {
+    name: 'SuperBlurBattlerz',
+    url: 'https://twitter.com/sbbattlerz',
+    logoPath: 'logos/super_blur_battlerz.jpeg',
+    category: Category.Gaming,
+    twitterUrl: 'https://twitter.com/sbbattlerz',
+  },
+  {
     name: 'Fantasy',
     url: 'https://www.fantasy.top',
     logoPath: 'logos/fantasy_top.jpeg',
