@@ -116,6 +116,13 @@ const protocols: Protocol[] = [
     category: Category.PerpDEX,
     twitterUrl: 'https://twitter.com/100xfinance',
   },
+  {
+    name: 'Particle',
+    url: 'https://www.particle.trade/',
+    logoPath: 'logos/particle.png',
+    category: Category.PerpDEX,
+    twitterUrl: 'https://twitter.com/particle_trade',
+  },
 ];
 
 export { protocols };
