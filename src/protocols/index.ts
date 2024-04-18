@@ -101,6 +101,13 @@ const protocols: Protocol[] = [
     category: Category.DEX,
     twitterUrl: 'https://twitter.com/protocolring',
   },
+  {
+    name: 'Bladeswap',
+    url: 'https://bladeswap.xyz',
+    logoPath: 'logos/Bladeswap.png',
+    category: Category.DEX,
+    twitterUrl: 'https://twitter.com/bladeswapxyz',
+  },
 ];
 
 export { protocols };
