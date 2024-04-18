@@ -94,6 +94,13 @@ const protocols: Protocol[] = [
     category: Category.DEX,
     twitterUrl: 'https://twitter.com/bebop_dex',
   },
+  {
+    name: 'Ring Protocol',
+    url: 'https://ring.exchange',
+    logoPath: 'logos/ringprotocol.jpeg',
+    category: Category.DEX,
+    twitterUrl: 'https://twitter.com/protocolring',
+  },
 ];
 
 export { protocols };
