@@ -86,7 +86,14 @@ const protocols: Protocol[] = [
     logoPath: 'logos/ambient.png',
     category: Category.DEX,
     twitterUrl: 'https://twitter.com/ambient_finance',
-  }
+  },
+  {
+    name: 'Bebop',
+    url: 'https://bebop.xyz/',
+    logoPath: 'logos/bebop.png',
+    category: Category.DEX,
+    twitterUrl: 'https://twitter.com/bebop_dex',
+  },
 ];
 
 export { protocols };
