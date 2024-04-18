@@ -7,6 +7,7 @@ export enum Category {
   Social = 'Social',
   DEX = 'DEX',
   PerpDEX = 'PerpDEX',
+  RWA = 'RWA',
 }
 
 export type Protocol = {
@@ -122,6 +123,13 @@ const protocols: Protocol[] = [
     logoPath: 'logos/particle.png',
     category: Category.PerpDEX,
     twitterUrl: 'https://twitter.com/particle_trade',
+  },
+  {
+    name: 'Kettle',
+    url: 'https://app.kettle.fi/',
+    logoPath: 'logos/kettle.png',
+    category: Category.RWA,
+    twitterUrl: 'https://twitter.com/KettleFinance',
   },
 ];
 
