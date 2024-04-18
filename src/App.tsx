@@ -29,7 +29,9 @@ const App: FC = () => {
   }, []);
 
   const groupProtocols = useMemo(() => {
-    return groupByCategory(protocols);
+    return groupByCategory(protocols).sort((a, b) =>
+      a[0].category.localeCompare(b[0].category)
+    );
   }, []);
 
   return (
