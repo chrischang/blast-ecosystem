@@ -6,6 +6,7 @@ export enum Category {
   Gaming = 'Gaming',
   Social = 'Social',
   DEX = 'DEX',
+  PerpDEX = 'PerpDEX',
 }
 
 export type Protocol = {
@@ -107,6 +108,13 @@ const protocols: Protocol[] = [
     logoPath: 'logos/Bladeswap.png',
     category: Category.DEX,
     twitterUrl: 'https://twitter.com/bladeswapxyz',
+  },
+  {
+    name: '100x',
+    url: 'https://100x.finance/',
+    logoPath: 'logos/100x.jpeg',
+    category: Category.PerpDEX,
+    twitterUrl: 'https://twitter.com/100xfinance',
   },
 ];
 
