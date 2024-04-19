@@ -91,6 +91,13 @@ const protocols: Protocol[] = [
     twitterUrl: 'https://twitter.com/ThrusterFi',
   },
   {
+    name: 'Blaster Swap',
+    url: 'https://blasterswap.com',
+    logoPath: 'logos/blasterswap.jpeg',
+    category: Category.DEX,
+    twitterUrl: 'https://twitter.com/blasterswap',
+  },
+  {
     name: 'Ambient',
     url: 'https://blast.ambient.finance/',
     logoPath: 'logos/ambient.png',
