@@ -8,6 +8,7 @@ export enum Category {
   DEX = 'DEX',
   PerpDEX = 'PerpDEX',
   RWA = 'RWA',
+  GambleFi = 'GambleFi',
 }
 
 export type Protocol = {
@@ -56,10 +57,17 @@ const protocols: Protocol[] = [
   },
   {
     name: 'SuperBlurBattlerz',
-    url: 'https://twitter.com/sbbattlerz',
+    url: 'https://blurbattlerz.io',
     logoPath: 'logos/super_blur_battlerz.jpeg',
     category: Category.Gaming,
     twitterUrl: 'https://twitter.com/sbbattlerz',
+  },
+  {
+    name: 'Captain & Company',
+    url: 'https://capnco.gg/',
+    logoPath: 'logos/captain_and_company.jpeg',
+    category: Category.Gaming,
+    twitterUrl: 'https://twitter.com/capncompany',
   },
   {
     name: 'Fantasy',
@@ -130,6 +138,27 @@ const protocols: Protocol[] = [
     logoPath: 'logos/kettle.png',
     category: Category.RWA,
     twitterUrl: 'https://twitter.com/KettleFinance',
+  },
+  {
+    name: 'Decentral Games',
+    url: 'https://decentral.games/casino',
+    logoPath: 'logos/decentral_games.jpeg',
+    category: Category.GambleFi,
+    twitterUrl: 'https://twitter.com/decentralgames',
+  },
+  {
+    name: 'BetBIG',
+    url: 'https://betbig.gg/',
+    logoPath: 'logos/betbig.jpeg',
+    category: Category.GambleFi,
+    twitterUrl: 'https://twitter.com/BetBIG_gg',
+  },
+  {
+    name: 'IKB',
+    url: 'https://ikb.gg/',
+    logoPath: 'logos/ikb.jpeg',
+    category: Category.GambleFi,
+    twitterUrl: 'https://twitter.com/ikbdotgg',
   },
 ];
 
