@@ -26,7 +26,7 @@ const Disclaimer = () => {
         onClose={() => setOpen(false)}
       >
         <Typography>
-          Disclaimer: The protocols and projects mentioned or listed are for not
+          Disclaimer: The protocols and projects mentioned or listed are not
           recommendations or endorsements{' '}
           <Button
             size={'small'}
