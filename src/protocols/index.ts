@@ -170,7 +170,7 @@ const protocols: Protocol[] = [
   {
     name: 'Dwarf Battles',
     url: 'https://www.dwarfbattles.xyz/',
-    logoPath: 'logos/dwarfbattles.png',
+    logoPath: 'logos/dwarfbattles.jpeg',
     category: Category.Gaming,
     twitterUrl: 'https://twitter.com/DwarfBattles',
   },
