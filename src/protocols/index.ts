@@ -167,6 +167,13 @@ const protocols: Protocol[] = [
     category: Category.GambleFi,
     twitterUrl: 'https://twitter.com/ikbdotgg',
   },
+  {
+    name: 'Dwarf Battles',
+    url: 'https://www.dwarfbattles.xyz/',
+    logoPath: 'logos/dwarfbattles.png',
+    category: Category.Gaming,
+    twitterUrl: 'https://twitter.com/DwarfBattles',
+  },
 ];
 
 export { protocols };
