@@ -9,6 +9,7 @@ export enum Category {
   PerpDEX = 'PerpDEX',
   RWA = 'RWA',
   GambleFi = 'GambleFi',
+  ERC404 = 'ERC404'
 }
 
 export type Protocol = {
@@ -173,6 +174,13 @@ const protocols: Protocol[] = [
     logoPath: 'logos/dwarfbattles.jpeg',
     category: Category.Gaming,
     twitterUrl: 'https://twitter.com/DwarfBattles',
+  },
+    {
+    name: 'Moonbeamer',
+    url: 'https://moonbeamer.xyz/',
+    logoPath: 'logos/Moonbeamer (3).png',
+    category: Category.ERC404,
+    twitterUrl: 'https://twitter.com/Moonbeamer_',
   },
 ];
 
