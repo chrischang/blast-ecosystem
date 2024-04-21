@@ -178,7 +178,7 @@ const protocols: Protocol[] = [
     {
     name: 'Moonbeamer',
     url: 'https://moonbeamer.xyz/',
-    logoPath: 'logos/',
+    logoPath: 'logos/Moonbeamer (3).png',
     category: Category.ERC404,
     twitterUrl: 'https://twitter.com/Moonbeamer_',
   },
