@@ -11,6 +11,7 @@ export enum Category {
   GambleFi = 'GambleFi',
   ERC404 = 'ERC404',
   Indexer = 'Indexer',
+  NFT = 'NFT/PFP',
 }
 
 export type Protocol = {
@@ -189,6 +190,20 @@ const protocols: Protocol[] = [
     logoPath: 'logos/ghost.jpeg',
     category: Category.Indexer,
     twitterUrl: 'https://twitter.com/0xGhostLogs',
+  },
+  {
+    name: 'Plague Poppets Blasted: Popkins',
+    url: 'https://blast.popkins.wtf',
+    logoPath: 'logos/popkins_pfp.png',
+    category: Category.NFT,
+    twitterUrl: 'https://twitter.com/PlaguePoppets',
+  },
+  {
+    name: 'Plague Poppets Blasted: Poppet vs Poppet',
+    url: 'https://blast.popkins.wtf/pvp',
+    logoPath: 'logos/popkins_pvp.png',
+    category: Category.GambleFi,
+    twitterUrl: 'https://twitter.com/PlaguePoppets',
   },
 ];
 
