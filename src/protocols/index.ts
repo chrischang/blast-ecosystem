@@ -164,6 +164,13 @@ const protocols: Protocol[] = [
     twitterUrl: 'https://twitter.com/BetBIG_gg',
   },
   {
+    name: 'Karma',
+    url: 'https://www.getkarma.gg/',
+    logoPath: 'logos/karma.jpg',
+    category: Category.GambleFi,
+    twitterUrl: 'https://twitter.com/getKarmaGG',
+  },
+  {
     name: 'IKB',
     url: 'https://ikb.gg/',
     logoPath: 'logos/ikb.jpeg',
