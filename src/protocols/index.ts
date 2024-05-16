@@ -12,6 +12,7 @@ export enum Category {
   ERC404 = 'ERC404',
   Indexer = 'Indexer',
   NFT = 'NFT/PFP',
+  TradingBots = "Trading Bots & AI Agents",
 }
 
 export type Protocol = {
@@ -211,6 +212,13 @@ const protocols: Protocol[] = [
     logoPath: 'logos/popkins_pvp.png',
     category: Category.GambleFi,
     twitterUrl: 'https://twitter.com/PlaguePoppets',
+  },
+  {
+    name: 'AgentFi',
+    url: 'https://agentfi.io/',
+    logoPath: 'logos/agentfi.png',
+    category: Category.TradingBots,
+    twitterUrl: 'https://twitter.com/Agent_Fi',
   },
 ];
 
